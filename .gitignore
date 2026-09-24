@@ -4,11 +4,9 @@ env/
 .venv/
 
 # Datos (versionados con DVC)
-*.csv
-*.db
-data/
-!data/.gitkeep
-!data/snapshots/.gitkeep
+data/*.csv
+data/*.db
+data/snapshots/
 
 # Configuración sensible
 .env
